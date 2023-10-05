@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background:url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Blue-Photos-1920x1080.jpg") no-repeat;
+}
+.wrapper {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2)
+;  padding: 50px;
+  border-radius: 15px;
+  width: 450px;
+  color: white;
+}
+.wrapper .input-box {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  margin: 30px 0;
+  border-radius: 50px;
+  align-items: center;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  border-radius: 50px;
+  color: white;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+  color: white;
+  padding: 20px 45px 20px 20px;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.checkbox label input {
+  accent-color:rgba(255, 255, 255, 0.377);
+  margin-left: 20px;
+}
+
+.checkbox a {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+.checkbox a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.wrapper button {
+  background-color: transparent;
+  width: 100%;
+  padding: 10px 45px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+.wrapper button:hover {
+  background-color:rgba(255, 255, 255, 0.2);
+  width: 100%;
+  padding: 10px 45px;
+  transition: background-color 0.3s ease-in;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.733);
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+.Crate-Account {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  justify-content: space-between;
+}
+.Crate-Account a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px;
+}
+.Crate-Account a:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 10px;
+  transition: color 0.2s ease;
+}
